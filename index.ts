@@ -4,8 +4,8 @@ type ObjectWithPath = {
 };
 
 export default function dotpath(str: string) {
-  const parts:string[] = str.split(".");
-  const len:number = parts.length;
+  const parts: string[] = str.split(".");
+  const len: number = parts.length;
 
   return function parse(obj: ObjectWithPath) {
     var testKey;

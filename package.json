@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard index.js test/index.js",
-    "test": "node test/index.js && npm run lint",
+    "test": "jest",
     "typecheck": "tsc"
   },
   "repository": {
